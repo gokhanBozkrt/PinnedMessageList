@@ -14,6 +14,7 @@ struct PinnedMessageListApp: App {
         WindowGroup {
             ContentView()
                 .environmentObject(messageVM)
+            
         }
     }
 }
